@@ -128,44 +128,6 @@ public class SelectedDayActivity extends AppCompatActivity {
                 intent, PendingIntent.FLAG_CANCEL_CURRENT );
         am.cancel(pendingIntent);
         am.set(AlarmManager.RTC_WAKEUP, calendar1.getTimeInMillis(), pendingIntent);
-
-
-
-
-
-
-
-
-
-        /*NotificationCompat.Builder builder =
-                new NotificationCompat.Builder(this, "id")
-                        .setSmallIcon(R.mipmap.ic_launcher)
-                        .setContentTitle("Title")
-                        .setContentText("Notification text")
-                        .setWhen(calendar1.getTimeInMillis())*;
-
-        Notification notification = builder.build();
-        Log.d("123", new Date(notification.when).toString());
-
-        NotificationManager notificationManager =
-                (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-        notificationManager.notify(1, notification);
-
-        //Toast.makeText(getApplicationContext(), date1.getMinutes()+"", Toast.LENGTH_SHORT).show();
-
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-            NotificationChannel channel = new NotificationChannel("id", "My channel",
-                    NotificationManager.IMPORTANCE_HIGH);
-            channel.setDescription("My channel description");
-            channel.enableLights(true);
-            channel.setLightColor(Color.RED);
-            channel.enableVibration(false);
-            notificationManager.createNotificationChannel(channel);
-        }*/
-
-
-
-        //Toast.makeText(getApplicationContext(), date2.toString(), Toast.LENGTH_SHORT).show();
     }
 
 
