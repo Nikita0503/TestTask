@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestTask</string>
+    <string name="title_activity_selected_day">SelectedDayActivity</string>
+    <string name="time">Time:</string>
+    <string name="not_selected">Not selected</string>
+    <string name="set_time">Choose time</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+</resources>
